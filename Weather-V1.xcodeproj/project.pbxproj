@@ -14,6 +14,7 @@
 		11F1615A28A11FCC00FDBBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F1615928A11FCC00FDBBDA /* Assets.xcassets */; };
 		11F1615D28A11FCC00FDBBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F1615B28A11FCC00FDBBDA /* LaunchScreen.storyboard */; };
 		11F1616528A1331300FDBBDA /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1616428A1331300FDBBDA /* DataModels.swift */; };
+		11F1616728A13EF600FDBBDA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1616628A13EF600FDBBDA /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		11F1615C28A11FCC00FDBBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11F1615E28A11FCC00FDBBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11F1616428A1331300FDBBDA /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		11F1616628A13EF600FDBBDA /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				11F1615928A11FCC00FDBBDA /* Assets.xcassets */,
 				11F1615B28A11FCC00FDBBDA /* LaunchScreen.storyboard */,
 				11F1615E28A11FCC00FDBBDA /* Info.plist */,
+				11F1616628A13EF600FDBBDA /* DataSource.swift */,
 			);
 			path = "Weather-V1";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				11F1615528A11FCA00FDBBDA /* ViewController.swift in Sources */,
 				11F1616528A1331300FDBBDA /* DataModels.swift in Sources */,
 				11F1615128A11FCA00FDBBDA /* AppDelegate.swift in Sources */,
+				11F1616728A13EF600FDBBDA /* DataSource.swift in Sources */,
 				11F1615328A11FCA00FDBBDA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

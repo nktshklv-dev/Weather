@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController{
 
+    
+    @IBOutlet var cityName: UILabel!
+    @IBOutlet var conditions: UILabel!
+    @IBOutlet var temperature: UILabel!
+    @IBOutlet var weatherIcon: UIImageView!
+    
     let locationManager = CLLocationManager()
     var weatherData = WeatherData()
     override func viewDidLoad() {
@@ -28,7 +34,10 @@ class ViewController: UIViewController{
     }
     
     func updateView(){
-        
+        cityName.text = weatherData.name
+        conditions.text = DataSource.weatherIDs[weatherData.weather[0].id]
+        temperature.text = weatherData.main.temp.description + "°"
+        weatherIcon.image = UIImage(named: weatherData.weather[0].icon)
     }
     func updateWeatherInfo(latitude: Double, longitude: Double){
         let session = URLSession.shared
